@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+
+  </style>
+</head>
+<body class="flex justify-center items-center bg-slate-600 h-screen ">
+  <div class="flex bg-white rounded-xl flex-col-reverse overflow-hidden h-[700px] md:flex-row md:gap-6 md:justify-center md:h-[620px] md:p-3">
+    <div class="flex flex-col gap-5 pl-4 pt-4 pb-5 md:justify-center md:gap-6">
+      <h1 class="font-bold text-4xl">Stay updated!</h1>
+      <p class="w-64 font-medium"> Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="font-medium flex gap-3 w-[20em]"><img width="20px" src="assets/images/icon-success.svg" alt=""> Product discovery and building what matters</div>
+      <div class="font-medium flex gap-3 w-[20em]"><img width="20px" src="assets/images/icon-success.svg" alt="">Measuring to ensure updates are a success</div>
+      <div class="font-medium flex gap-3"><img width="20px" src="assets/images/icon-success.svg">And much more!</div>
+      <div class="flex flex-col gap-2">
+        <p class="font-bold">Email address</p>
+        <input class="border-2 border-gray-300 rounded-[4px] p-2 w-[21em] md:w-full" type="text" placeholder="email@company.com">
+      </div>
+      <a href="thanks.html"><button class="js-button bg-blue-950 text-white w-[21em] py-2 rounded-[4px] md:w-full  font-semibold"> Subscribe to monthly newsletter</button></a>
+
+    </div>
+    
+    <div>
+    </div>
+    <div class="md:none">
+      <img  class="md:hidden" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+      <img class="hidden md:block" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+  </div>
+  <script>
+    const button = document.querySelector('.js-button')
+    const display = document.getElementById('e1')
+    button.addEventListener('click',() => {
+      
+    })
+  </script>
+</body>
+</html>
